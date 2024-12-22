@@ -5,7 +5,7 @@
 I have tested the performance of various machine learning techniques to predict hourly electricity usage profiles, which would be useful to identify if an energy saving initiative is working, for example. The purpose here was not an advanced optimisation of the prediction problem, but to instead personally learn to use some techniques that might be applicable to energy data in general and understand the performance differences. The dataset used is publicly available from The American Society of Heating, Refrigerating and Air-Conditioning Engineers (ASHRAE) and comprises metered electricity consumption of hundreds of buildings in the USA.
 
 # Data
-Data is sourced from ASHRAE's Kaggle competition, the Great Energy Predictor III (https://www.kaggle.com/competitions/ashrae-energy-prediction/overview). 
+Data is sourced from ASHRAE's Kaggle competition, the Great Energy Predictor III (https://www.kaggle.com/competitions/ashrae-energy-prediction/overview). To run the main notebook, down data into path 'Capstone/Portfolio/ashrae-energy-prediction'. Run SaveToFeather before the main notebook, as the main notebook calls the data feather formats. 
 
 Input data: 
 - Site, building, and meter IDs
